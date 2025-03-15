@@ -3,9 +3,9 @@ package controller
 import (
 	"fmt"
 
-	"github.com/tamaco489/async_serverless_application_sample/api/gem/internal/configuration"
-	"github.com/tamaco489/async_serverless_application_sample/api/gem/internal/library/dynamodb_client"
-	"github.com/tamaco489/async_serverless_application_sample/api/gem/internal/usecase"
+	"github.com/takeuchima0/async_serverless_application_sample/api/gem/internal/configuration"
+	"github.com/takeuchima0/async_serverless_application_sample/api/gem/internal/library/dynamodb_client"
+	"github.com/takeuchima0/async_serverless_application_sample/api/gem/internal/usecase"
 )
 
 type Controllers struct {

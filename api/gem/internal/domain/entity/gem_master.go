@@ -3,7 +3,7 @@ package entity
 import (
 	"errors"
 
-	"github.com/tamaco489/async_serverless_application_sample/api/gem/internal/domain/value_object"
+	"github.com/takeuchima0/async_serverless_application_sample/api/gem/internal/domain/value_object"
 )
 
 // GemPack: ジェムのオブジェクト

@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/gin-gonic/gin"
-	"github.com/tamaco489/async_serverless_application_sample/api/shop/internal/gen"
+	"github.com/takeuchima0/async_serverless_application_sample/api/shop/internal/gen"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )

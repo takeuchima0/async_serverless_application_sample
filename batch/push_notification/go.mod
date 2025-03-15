@@ -1,4 +1,4 @@
-module github.com/tamaco489/async_serverless_application_sample/batch/push_notification
+module github.com/takeuchima0/async_serverless_application_sample/batch/push_notification
 
 go 1.23.5
 

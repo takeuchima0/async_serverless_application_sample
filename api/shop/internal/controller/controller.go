@@ -3,9 +3,9 @@ package controller
 import (
 	"fmt"
 
-	"github.com/tamaco489/async_serverless_application_sample/api/shop/internal/configuration"
-	"github.com/tamaco489/async_serverless_application_sample/api/shop/internal/library/sqs_client"
-	"github.com/tamaco489/async_serverless_application_sample/api/shop/internal/usecase"
+	"github.com/takeuchima0/async_serverless_application_sample/api/shop/internal/configuration"
+	"github.com/takeuchima0/async_serverless_application_sample/api/shop/internal/library/sqs_client"
+	"github.com/takeuchima0/async_serverless_application_sample/api/shop/internal/usecase"
 )
 
 type Controllers struct {

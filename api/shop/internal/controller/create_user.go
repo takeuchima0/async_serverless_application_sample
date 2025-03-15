@@ -2,7 +2,7 @@ package controller
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/tamaco489/async_serverless_application_sample/api/shop/internal/gen"
+	"github.com/takeuchima0/async_serverless_application_sample/api/shop/internal/gen"
 )
 
 func (c *Controllers) CreateUser(ctx *gin.Context, request gen.CreateUserRequestObject) (gen.CreateUserResponseObject, error) {

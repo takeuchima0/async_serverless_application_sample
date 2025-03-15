@@ -5,7 +5,7 @@ import (
 	"log/slog"
 
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/tamaco489/async_serverless_application_sample/batch/slack_message/internal/usecase"
+	"github.com/takeuchima0/async_serverless_application_sample/batch/slack_message/internal/usecase"
 )
 
 type DynamoDBEventJob func(ctx context.Context, dynamoDBEvent events.DynamoDBEvent) error

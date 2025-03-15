@@ -6,9 +6,9 @@ import (
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/tamaco489/async_serverless_application_sample/api/gem/internal/configuration"
-	"github.com/tamaco489/async_serverless_application_sample/api/gem/internal/gen"
-	"github.com/tamaco489/async_serverless_application_sample/api/gem/internal/library/logger"
+	"github.com/takeuchima0/async_serverless_application_sample/api/gem/internal/configuration"
+	"github.com/takeuchima0/async_serverless_application_sample/api/gem/internal/gen"
+	"github.com/takeuchima0/async_serverless_application_sample/api/gem/internal/library/logger"
 )
 
 func NewGemAPIServer(cnf configuration.Config) (*http.Server, error) {

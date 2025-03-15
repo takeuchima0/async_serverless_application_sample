@@ -11,9 +11,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb/types"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/tamaco489/async_serverless_application_sample/api/gem/internal/domain/entity"
-	"github.com/tamaco489/async_serverless_application_sample/api/gem/internal/domain/value_object"
-	"github.com/tamaco489/async_serverless_application_sample/api/gem/internal/gen"
+	"github.com/takeuchima0/async_serverless_application_sample/api/gem/internal/domain/entity"
+	"github.com/takeuchima0/async_serverless_application_sample/api/gem/internal/domain/value_object"
+	"github.com/takeuchima0/async_serverless_application_sample/api/gem/internal/gen"
 )
 
 func (u *gemUseCase) UpdateGemPurchase(ctx *gin.Context, request gen.UpdateGemPurchaseRequestObject) (gen.UpdateGemPurchaseResponseObject, error) {

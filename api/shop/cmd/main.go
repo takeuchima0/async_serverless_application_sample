@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/tamaco489/async_serverless_application_sample/api/shop/internal/configuration"
-	"github.com/tamaco489/async_serverless_application_sample/api/shop/internal/controller"
+	"github.com/takeuchima0/async_serverless_application_sample/api/shop/internal/configuration"
+	"github.com/takeuchima0/async_serverless_application_sample/api/shop/internal/controller"
 )
 
 func main() {

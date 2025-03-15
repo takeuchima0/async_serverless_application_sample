@@ -6,10 +6,10 @@ import (
 	"os"
 
 	"github.com/aws/aws-lambda-go/lambda"
-	"github.com/tamaco489/async_serverless_application_sample/batch/slack_message/internal/configuration"
-	"github.com/tamaco489/async_serverless_application_sample/batch/slack_message/internal/handler"
-	"github.com/tamaco489/async_serverless_application_sample/batch/slack_message/internal/library/logging"
-	"github.com/tamaco489/async_serverless_application_sample/batch/slack_message/internal/usecase"
+	"github.com/takeuchima0/async_serverless_application_sample/batch/slack_message/internal/configuration"
+	"github.com/takeuchima0/async_serverless_application_sample/batch/slack_message/internal/handler"
+	"github.com/takeuchima0/async_serverless_application_sample/batch/slack_message/internal/library/logging"
+	"github.com/takeuchima0/async_serverless_application_sample/batch/slack_message/internal/usecase"
 )
 
 func main() {

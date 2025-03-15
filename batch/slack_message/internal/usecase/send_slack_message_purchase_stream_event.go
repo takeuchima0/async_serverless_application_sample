@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tamaco489/async_serverless_application_sample/batch/slack_message/internal/library/slack"
-	"github.com/tamaco489/async_serverless_application_sample/batch/slack_message/internal/utils/dynamodb_util"
+	"github.com/takeuchima0/async_serverless_application_sample/batch/slack_message/internal/library/slack"
+	"github.com/takeuchima0/async_serverless_application_sample/batch/slack_message/internal/utils/dynamodb_util"
 )
 
 func (j *Job) SendSlackMessagePurchaseStreamEvent(ctx context.Context, event SendSlackMessagePurchaseStreamEvent) error {
@@ -55,7 +55,7 @@ type sendSlackMessageAttachment struct {
 }
 
 func newSendSlackMessageAttachment(playerID int, formattedTime, transactionID, description string) sendSlackMessageAttachment {
-	username, title := "購入が完了しました。", "tamaco489"
+	username, title := "購入が完了しました。", "takeuchima0"
 	return sendSlackMessageAttachment{
 		username:      username,
 		title:         title,

@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/tamaco489/async_serverless_application_sample/api/shop/internal/gen"
+	"github.com/takeuchima0/async_serverless_application_sample/api/shop/internal/gen"
 )
 
 func (u reservationUseCase) CreateReservation(ctx *gin.Context, request gen.CreateReservationRequestObject) (gen.CreateReservationResponseObject, error) {

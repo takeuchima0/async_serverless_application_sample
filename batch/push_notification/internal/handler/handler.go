@@ -6,8 +6,8 @@ import (
 	"log/slog"
 
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/tamaco489/async_serverless_application_sample/batch/push_notification/internal/models"
-	"github.com/tamaco489/async_serverless_application_sample/batch/push_notification/internal/usecase"
+	"github.com/takeuchima0/async_serverless_application_sample/batch/push_notification/internal/models"
+	"github.com/takeuchima0/async_serverless_application_sample/batch/push_notification/internal/usecase"
 )
 
 type SQSEventJob func(ctx context.Context, sqsEvent events.SQSEvent) error

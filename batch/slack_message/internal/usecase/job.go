@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/tamaco489/async_serverless_application_sample/batch/slack_message/internal/configuration"
-	"github.com/tamaco489/async_serverless_application_sample/batch/slack_message/internal/library/slack"
+	"github.com/takeuchima0/async_serverless_application_sample/batch/slack_message/internal/configuration"
+	"github.com/takeuchima0/async_serverless_application_sample/batch/slack_message/internal/library/slack"
 )
 
 type Jobber interface {

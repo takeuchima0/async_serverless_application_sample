@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/oapi-codegen/runtime/types"
-	"github.com/tamaco489/async_serverless_application_sample/api/shop/internal/gen"
+	"github.com/takeuchima0/async_serverless_application_sample/api/shop/internal/gen"
 )
 
 func (c *Controllers) GetProfileMe(ctx *gin.Context, request gen.GetProfileMeRequestObject) (gen.GetProfileMeResponseObject, error) {

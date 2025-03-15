@@ -6,8 +6,8 @@ import (
 	"log/slog"
 
 	"github.com/line/line-bot-sdk-go/v7/linebot"
-	"github.com/tamaco489/async_serverless_application_sample/batch/push_notification/internal/configuration"
-	"github.com/tamaco489/async_serverless_application_sample/batch/push_notification/internal/models"
+	"github.com/takeuchima0/async_serverless_application_sample/batch/push_notification/internal/configuration"
+	"github.com/takeuchima0/async_serverless_application_sample/batch/push_notification/internal/models"
 )
 
 func (j *Job) SendPushNotificationPurchaseCompleted(ctx context.Context, message models.PurchaseQueueMessage) error {

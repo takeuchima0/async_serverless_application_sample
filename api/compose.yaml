@@ -3,9 +3,9 @@ services:
     platform: linux/amd64
     image: cosmtrek/air:v1.61.7
     container_name: shop-api
-    working_dir: /go/src/github.com/tamaco489/async_serverless_application_sample/api/shop
+    working_dir: /go/src/github.com/takeuchima0/async_serverless_application_sample/api/shop
     volumes:
-      - ./shop:/go/src/github.com/tamaco489/async_serverless_application_sample/api/shop
+      - ./shop:/go/src/github.com/takeuchima0/async_serverless_application_sample/api/shop
       - ~/.cache/go-build:/root/.cache/go-build
     ports:
       - "8080:8080"
@@ -16,9 +16,9 @@ services:
     platform: linux/amd64
     image: cosmtrek/air:v1.61.7
     container_name: gem-api
-    working_dir: /go/src/github.com/tamaco489/async_serverless_application_sample/api/gem
+    working_dir: /go/src/github.com/takeuchima0/async_serverless_application_sample/api/gem
     volumes:
-      - ./gem:/go/src/github.com/tamaco489/async_serverless_application_sample/api/gem
+      - ./gem:/go/src/github.com/takeuchima0/async_serverless_application_sample/api/gem
       - ~/.cache/go-build:/root/.cache/go-build
     ports:
       - "8081:8080"

@@ -6,9 +6,9 @@ import (
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/tamaco489/async_serverless_application_sample/api/shop/internal/configuration"
-	"github.com/tamaco489/async_serverless_application_sample/api/shop/internal/gen"
-	"github.com/tamaco489/async_serverless_application_sample/api/shop/internal/library/logger"
+	"github.com/takeuchima0/async_serverless_application_sample/api/shop/internal/configuration"
+	"github.com/takeuchima0/async_serverless_application_sample/api/shop/internal/gen"
+	"github.com/takeuchima0/async_serverless_application_sample/api/shop/internal/library/logger"
 )
 
 func NewShopAPIServer(cnf configuration.Config) (*http.Server, error) {

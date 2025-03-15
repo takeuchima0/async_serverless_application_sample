@@ -8,9 +8,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/tamaco489/async_serverless_application_sample/api/shop/internal/configuration"
-	"github.com/tamaco489/async_serverless_application_sample/api/shop/internal/gen"
-	"github.com/tamaco489/async_serverless_application_sample/api/shop/internal/library/sqs_client"
+	"github.com/takeuchima0/async_serverless_application_sample/api/shop/internal/configuration"
+	"github.com/takeuchima0/async_serverless_application_sample/api/shop/internal/gen"
+	"github.com/takeuchima0/async_serverless_application_sample/api/shop/internal/library/sqs_client"
 )
 
 func (u *chargeUseCase) CreateCharge(ctx *gin.Context, request gen.CreateChargeRequestObject) (gen.CreateChargeResponseObject, error) {

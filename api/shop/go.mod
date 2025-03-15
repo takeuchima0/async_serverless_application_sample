@@ -1,4 +1,4 @@
-module github.com/tamaco489/async_serverless_application_sample/api/shop
+module github.com/takeuchima0/async_serverless_application_sample/api/shop
 
 go 1.23.5
 
